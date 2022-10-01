@@ -1,0 +1,33 @@
+
+.card-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid grey;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: 0.5s ease-in-out all;
+    padding: 1rem;
+}
+.card-content:hover{
+    background-color: lightslategrey;
+  
+    color: black;
+}
+.card-content img{
+    width: 4rem;
+    border-radius: 1rem;
+}
+.card-content a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 1rem;
+    border-radius: 1rem;
+}
+.card-content a:hover{
+    background-color: black;
+}
